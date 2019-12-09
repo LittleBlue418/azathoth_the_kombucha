@@ -1,3 +1,5 @@
+/* Images */
+
 #story_image {
     height: 200px;
     width: 200px;
@@ -10,4 +12,41 @@
 .a_ch_001 {
     background-image: url(../images/a_ch_001.jpg);
 }
+
+.a_ch_002 {
+    background-image: url(../images/a_ch_002.jpg);
+}
+
+.a_ch_003 {
+    background-image: url(../images/a_ch_003.png);
+}
+
+.a_ch_004 {
+    background-image: url(../images/a_ch_004.jpg);
+}
+
+.a_ch_005 {
+    background-image: url(../images/a_ch_005.jpg);
+}
+
+.a_ch_006 {
+    background-image: url(../images/a_ch_006.jpg);
+}
+
+.a_ch_007 {
+    background-image: url(../images/a_ch_007.jpg);
+}
+
+.a_ch_008 {
+    background-image: url(../images/a_ch_008.jpg);
+}
+
+.a_ch_009 {
+    background-image: url(../images/a_ch_009.jpg);
+}
+
+.a_ch_010 {
+    background-image: url(../images/a_ch_010.jpg);
+}
+
 

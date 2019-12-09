@@ -7,46 +7,46 @@
     "2": {
         "title": "Chapter Two",
         "text" : "story here",
-        "image" : "image file path here"
+        "image" : "a_ch_002"
     },
     "3": {
         "title": "Chapter Three",
         "text" : "story here",
-        "image" : "image file path here"
+        "image" : "a_ch_003"
     },
     "4": {
         "title": "Chapter Four",
         "text" : "story here",
-        "image" : "image file path here"
+        "image" : "a_ch_004"
     },
     "5": {
         "title": "Chapter Five",
         "text" : "story here",
-        "image" : "image file path here"
+        "image" : "a_ch_005"
     },
     "6": {
         "title": "Chapter Six",
         "text" : "story here",
-        "image" : "image file path here"
+        "image" : "a_ch_006"
     },
     "7": {
         "title": "Chapter Seven",
         "text" : "story here",
-        "image" : "image file path here"
+        "image" : "a_ch_007"
     },
     "8": {
         "title": "Chapter Eight",
         "text" : "story here",
-        "image" : "image file path here"
+        "image" : "a_ch_008"
     },
-    "09": {
+    "9": {
         "title": "Chapter Nine",
         "text" : "story here",
-        "image" : "image file path here"
+        "image" : "a_ch_009"
     },
     "10": {
         "title": "Chapter Ten",
         "text" : "story here",
-        "image" : "image file path here"
+        "image" : "a_ch_010"
     }
 }
