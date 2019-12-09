@@ -1,0 +1,52 @@
+{
+    "1": {
+        "title": "Chapter One",
+        "text" : "story here",
+        "image" : "image file path here"
+    },
+    "2": {
+        "title": "Chapter Two",
+        "text" : "story here",
+        "image" : "image file path here"
+    },
+    "3": {
+        "title": "Chapter Three",
+        "text" : "story here",
+        "image" : "image file path here"
+    },
+    "4": {
+        "title": "Chapter Four",
+        "text" : "story here",
+        "image" : "image file path here"
+    },
+    "5": {
+        "title": "Chapter Five",
+        "text" : "story here",
+        "image" : "image file path here"
+    },
+    "6": {
+        "title": "Chapter Six",
+        "text" : "story here",
+        "image" : "image file path here"
+    },
+    "7": {
+        "title": "Chapter Seven",
+        "text" : "story here",
+        "image" : "image file path here"
+    },
+    "8": {
+        "title": "Chapter Eight",
+        "text" : "story here",
+        "image" : "image file path here"
+    },
+    "09": {
+        "title": "Chapter Nine",
+        "text" : "story here",
+        "image" : "image file path here"
+    },
+    "10": {
+        "title": "Chapter Ten",
+        "text" : "story here",
+        "image" : "image file path here"
+    }
+}
