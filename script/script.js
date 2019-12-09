@@ -65,16 +65,9 @@ $(() => {
     page_element.chapter_image.removeClass()
     page_element.chapter_image.addClass(story.chapter["image"])
 
-    if (story.current_chapter === 0) {
-      page_element.next_button.show()
-      page_element.previous_button.hide()
-    } else if (story.current_chapter > 0 && story.current_chapter < story.max_chapters) {
-      page_element.next_button.show()
-      page_element.previous_button.show()
-    } else {
-      page_element.next_button.hide()
-      page_element.previous_button.show()
-    }
+    page_element.next_button.toggle(story.current_chapter < story.max_chapters)
+    page_element.previous_button.toggle(story.current_chapter > 0)
+
   }
 
 
