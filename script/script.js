@@ -2,7 +2,7 @@ $(() => {
 
   class Story {
     constructor() {
-      this.current_chapter = 1
+      this.current_chapter = 0
       this.max_chapters = 0
       this.chapter = {}
       this.book = {}
@@ -18,7 +18,7 @@ $(() => {
       $.get("assets/story.json")
         .then((json) => {
             this.book = json
-            this.max_chapters = Object.keys(this.book).length
+            this.max_chapters = this.book.length -1
           })
         .then(this.load_chapter)
     }
@@ -39,7 +39,7 @@ $(() => {
     }
 
     previous_chapter() {
-      if (this.current_chapter > 1) {
+      if (this.current_chapter > 0) {
         this.current_chapter -= 1;
         this.load_chapter()
       } else {
@@ -65,10 +65,10 @@ $(() => {
     page_element.chapter_image.removeClass()
     page_element.chapter_image.addClass(story.chapter["image"])
 
-    if (story.current_chapter === 1) {
+    if (story.current_chapter === 0) {
       page_element.next_button.show()
       page_element.previous_button.hide()
-    } else if (story.current_chapter > 1 && story.current_chapter < story.max_chapters) {
+    } else if (story.current_chapter > 0 && story.current_chapter < story.max_chapters) {
       page_element.next_button.show()
       page_element.previous_button.show()
     } else {
